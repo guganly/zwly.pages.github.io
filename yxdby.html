@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="css/lipingzhinan.css" rel="stylesheet" type="text/css"/>
+    <title>腾格里研学大本营</title>
+</head>
+
+<body onLoad="">
+<div class="w" style="height:80px; margin-top:5px;">
+    <!--logo-->
+    <div style="float:left;">
+        <div class="logo"><img src="img/5.jpg"/></div>
+        <div class="lg"><img src="img/3.jpg"/></div>
+    </div>
+    <!--menu菜单-->
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="zwms.html" target="_blank">中卫美食</a></li>
+            <li><a href="fjms.html" target="_blank">风景名胜</a></li>
+            <li><a href="msjd.html" target="_blank">民宿酒店</a></li>
+            <li><a href="xzjd.html" target="_blank">小众景点</a></li>
+            <li class="zh"><a href="zmrw.html" target="_blank">著名人物</a></li>
+        </ul>
+    </div>
+</div>
+<div class="top w"><img src="img/top.jpg" id="img"/></div>  <!--top图片-->
+
+<div class="mlj w">
+    <div class="zk">
+        <div class="frq">
+            <div class="bt">腾格里研学大本营</div>
+            <div class="nr">
+                <p>
+                    腾格里研学大本营位于中卫市沙坡头区西北方向的阿拉善左旗腾格里沙漠腹地，距中卫火车站37.8公里，驾车约44分钟左右。在这里，可以乘沙漠巨兽冲浪车冲浪、骑骆驼、滑沙、骑沙滩摩托车等。是星空露营，研学、团建的理想地方。</p>
+                <br/>
+                <p>
+                    腾格里研学大本营房车营地是腾格里沙漠最具体验性的房车露营营地，基地由近几年最流行的拖挂式房车、内蒙风情蒙古包、户外露营帐篷及沙景小木屋四部分组成，在营地中您可以体验“沙漠巨兽”冲浪车、“沙漠之舟”骆驼骑行、沙滩摩托自驾、激情滑沙、沙滩排球、越野车穿越、沙漠徒步、深度沙漠摄影、沙漠BBQ烤肉、篝火晚会等休闲项目，您还能感受内蒙民俗文化。基地在严格保护森林生态环境的基础上，积极倡导低碳、环保、绿色的旅游出行方式，是您亲近自然、感受自然的最佳出行选择。</p>
+            </div>
+            <div class="qy">门票</div>
+        </div>
+        <div class="tu"><img src="img/dby1.jpeg"></div>
+    </div>
+    <div class="neirong">
+        <p>290元（沙漠冲浪+骑骆驼+滑沙+沙滩摩托车+其它沙漠免费项目），680元（城区至大本营专车接送+沙漠娱乐项目290+第1天中餐火锅、晚餐、烧烤+第2天早餐+篝火晚会+徒步+领队服务+生存体验）</p></br>
+        <div class="tt"><img src="img/dby2.jpeg"></div>
+        <div class="zongbiankuang">
+            <div class="fu">
+                <div class="tc">交通及预订</div>
+                <div class="taocan">
+                    <p>没有公共交通，可自驾至腾格里研学大本营，或乘坐腾格里研学大本营公司的专车前往。在百度地图可搜索腾格里研学大本营。</p><br/>
+                    <p>开放时间：全天 (1月1日-12月31日 周一-周日)</p></br>
+                    <p>11月至次年2月当地气温较低，不利于在腾格里沙漠露营。</p>
+                    <P>电话：+86-17509553988</P>
+                </div>
+            </div>
+            <div class="tao"><img src="img/dby3.jpeg"/></div>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<div class="copy w">
+  <pre>
+          Copyright 2022 ZhongWeiYinXiang,All Rights Reserved 版本所有：中卫印象
+          景点地址：宁 夏 中 卫 市 全 境
+          宁ICP备00000000号   咨询电话：0955-0000000   中卫印象旅游网
+                                                 </pre>
+</div>  <!--copy-->
+</body>
+<script>
+    var arr = new Array('img/top.jpg', 'img/top21.jpg', 'img/top22.jpg');
+    var i = 0;//下标
+    var t = null;
+
+    function change() {
+        //清除计时器
+        window.clearTimeout(t);
+        //获取图片对象
+        var img = document.getElementById('img');
+
+        //改变图片路径
+        img.src = arr[i];
+        //下标的增加
+        i++;
+        //下标范围的控制
+        if (i > arr.length - 1) {
+            i = 0;
+        }
+        //设置计数器
+        t = window.setTimeout('change()', 2000);
+    }
+
+    change();
+</script>
+
+</html>

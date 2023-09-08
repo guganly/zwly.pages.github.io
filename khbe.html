@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="css/lipingzhinan.css" rel="stylesheet" type="text/css"/>
+    <title>中卫凯汇泊尔酒店</title>
+</head>
+
+<body onLoad="">
+<div class="w" style="height:80px; margin-top:5px;">
+    <!--logo-->
+    <div style="float:left;">
+        <div class="logo"><img src="img/5.jpg"/></div>
+        <div class="lg"><img src="img/3.jpg"/></div>
+    </div>
+    <!--menu菜单-->
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="zwms.html" target="_blank">中卫美食</a></li>
+            <li><a href="fjms.html" target="_blank">风景名胜</a></li>
+            <li><a href="msjd.html" target="_blank">民宿酒店</a></li>
+            <li><a href="xzjd.html" target="_blank">小众景点</a></li>
+            <li class="zh"><a href="zmrw.html" target="_blank">著名人物</a></li>
+        </ul>
+    </div>
+</div>
+<div class="top w"><img src="img/top.jpg" id="img"/></div>  <!--top图片-->
+
+<div class="mlj w">
+    <div class="zk">
+        <div class="frq">
+            <div class="bt">中卫凯汇泊尔酒店</div>
+            <div class="nr">
+                <p>
+                    座落于宁夏中卫市鼓楼东街核心地段的中卫凯汇泊尔酒店，满足星级标准的本地区“高端型旅居酒店”，会让您在中卫拥有别样的体验，开展一段难忘的旅程。距离国家5A级景区沙坡头约20公里，均很便捷。除此之外，下楼步行即可游览中卫老城，紧邻的创业城小吃街更是可以尝遍地道宁夏风味。约3公里内还可轻松游览沙坡头水镇、香山公园、黄河宫等景点。 </p>
+                <br/>
+                <p>
+                    酒店在精心设计打造的客房内，为您配备了齐全的旅居用品，智能化的设施设备，加上房间超大的观景视野，24小时热水和超舒适的沐浴系统，让您在回到酒店后可以充分缓解一天的疲劳。酒店中西餐厅和自助餐厅供应品种繁多的美味菜肴。此外，在空闲的时候，去四楼影音房，观看一部高清院线大片是不错的选择。酒店“亲情管家式服务”让您切实感受到宾至如归的美好入住体验，让我们的服务更有温度。我们秉承“绿色健康，亲近自然，顾客至上，用心服务”的经营管理念和服务宗旨。是您商旅会议住宿的理想之选。尊贵典雅，温馨整洁，用心服务只为您更好，有幸与八方豪杰交朋友。凯汇泊尔酒店全体员工期待您的大驾光临。</p>
+            </div>
+        </div>
+        <div class="tu"><img src="img/khbr2.jpeg"></div>
+    </div>
+    <div class="neirong">
+        <p>开业：2021客房数：126联系方式：0955-7016666-0</p></br>
+        <div class="tt"><img src="img/khbe1.jpeg"></div>
+        <div class="zongbiankuang">
+            <div class="fu">
+                <div class="tc">交通及预订</div>
+                <div class="taocan">
+                    <p>位置：中国，宁夏，中卫，沙坡头区，鼓楼东街与蔡桥路交汇处</p></br>
+                    <p>接机服务|棋牌室|24小时前台服务|会议厅</p></br>
+                    <p>凯汇泊尔酒店·泊漫中餐厅</p></br>
+                    <P>人均消费：295+</P>
+                </div>
+            </div>
+            <div class="tao"><img src="img/khbr3.jpeg"/></div>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<div class="copy w">
+  <pre>
+          Copyright 2022 ZhongWeiYinXiang,All Rights Reserved 版本所有：中卫印象
+          景点地址：宁 夏 中 卫 市 全 境
+          宁ICP备00000000号   咨询电话：0955-0000000   中卫印象旅游网
+                                                 </pre>
+</div>  <!--copy-->
+</body>
+<script>
+    var arr = new Array('img/top.jpg', 'img/top21.jpg', 'img/top22.jpg');
+    var i = 0;//下标
+    var t = null;
+
+    function change() {
+        //清除计时器
+        window.clearTimeout(t);
+        //获取图片对象
+        var img = document.getElementById('img');
+
+        //改变图片路径
+        img.src = arr[i];
+        //下标的增加
+        i++;
+        //下标范围的控制
+        if (i > arr.length - 1) {
+            i = 0;
+        }
+        //设置计数器
+        t = window.setTimeout('change()', 2000);
+    }
+
+    change();
+</script>
+
+</html>

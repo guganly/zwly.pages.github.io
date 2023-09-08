@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="css/htm.css" rel="stylesheet" type="text/css"/>
+    <title>凉拌沙葱</title>
+</head>
+
+<body onLoad="">
+<div class="w" style="height:80px; margin-top:5px;">
+    <!--logo-->
+    <div style="float:left;">
+        <div class="logo"><img src="img/5.jpg"/></div>
+        <div class="lg"><img src="img/3.jpg"/></div>
+    </div>
+    <!--menu菜单-->
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="zwms.html" target="_blank">中卫美食</a></li>
+            <li><a href="fjms.html" target="_blank">风景名胜</a></li>
+            <li><a href="msjd.html" target="_blank">民宿酒店</a></li>
+            <li><a href="xzjd.html" target="_blank">小众景点</a></li>
+            <li class="zh"><a href="zmrw.html" target="_blank">著名人物</a></li>
+        </ul>
+    </div>
+</div>
+<div class="top w"><img src="img/top.jpg" id="img"/></div>  <!--top图片-->
+
+<div class="mlj w">
+    <div class="zk">
+        <div class="frq">
+            <div class="bt">凉拌沙葱</div>
+            <div class="nr">
+                <p>
+                    凉拌沙葱，沙葱是韭菜的一种，主要分布在西北地区，有很高的营养和药用价值，最好的食用方法就是凉拌，少量的食盐，味极鲜，少许的糖搅拌均匀，很是开胃，当地百姓经常把它当成下酒的凉菜。在中卫，除夏秋两季能品尝到凉拌沙葱外，冬日还可吃到腌制的沙葱。</p>
+            </div>
+
+            <table>
+                <tr>
+                    <td width="100px" style="font-size:14px; font-weight:bold; color:#999;">中文名</td>
+                    <td width="250px">凉拌沙葱</td>
+                    <td style="font-size:14px; font-weight:bold; color:#999;">是否含防腐剂</td>
+                    <td>否</td>
+                </tr>
+                <tr>
+                    <td style="font-size:14px; font-weight:bold; color:#999;">主食材料</td>
+                    <td>沙葱，大蒜等</td>
+                    <td style="font-size:14px; font-weight:bold; color:#999;">特 色</td>
+                    <td>爽口，有一定的药用价值</td>
+                </tr>
+            </table>
+
+            <div class="qy">凉拌沙葱做法</div>
+        </div>
+        <div class="tu"><img src="img/ms1.JPG"/></div>
+    </div>
+    <div class="neirong">
+        <p>沙葱一斤，择净后用水反复冲洗干净。</p></br>
+        <p>水烧开后放少许咸盐，放入沙葱稍氽，出锅用冷开水镇凉。</p></br>
+        <p>双手攥干水份，从中间切一刀，使沙葱稍短一点。</p></br>
+        <p>生蒜加盐捣成蒜泥，加白糖、生抽、味精、醋充分混合，倒入拌菜盆中。炒锅上火，加油烧热，放花椒爆出香味后捞出花椒，把热花椒油倒入。</p></br>
+        <p>搅拌均匀，即可装盘。</p>
+    </div>
+
+</div>
+
+<div class="copy w">
+  <pre>
+          Copyright 2022 ZhongWeiYinXiang,All Rights Reserved 版本所有：中卫印象
+          景点地址：宁 夏 中 卫 市 全 境
+          宁ICP备00000000号   咨询电话：0955-0000000   中卫印象旅游网
+                                                 </pre>
+</div>  <!--copy-->
+</body>
+<script>
+    var arr = new Array('img/top.jpg', 'img/top21.jpg', 'img/top22.jpg');
+    var i = 0;//下标
+    var t = null;
+
+    function change() {
+        //清除计时器
+        window.clearTimeout(t);
+        //获取图片对象
+        var img = document.getElementById('img');
+
+        //改变图片路径
+        img.src = arr[i];
+        //下标的增加
+        i++;
+        //下标范围的控制
+        if (i > arr.length - 1) {
+            i = 0;
+        }
+        //设置计数器
+        t = window.setTimeout('change()', 2000);
+    }
+
+    change();
+</script>
+
+</html>

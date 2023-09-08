@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="css/lipingzhinan.css" rel="stylesheet" type="text/css"/>
+    <title>黄河宿集</title>
+</head>
+
+<body onLoad="">
+<div class="w" style="height:80px; margin-top:5px;">
+    <!--logo-->
+    <div style="float:left;">
+        <div class="logo"><img src="img/5.jpg"/></div>
+        <div class="lg"><img src="img/3.jpg"/></div>
+    </div>
+    <!--menu菜单-->
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="zwms.html" target="_blank">中卫美食</a></li>
+            <li><a href="fjms.html" target="_blank">风景名胜</a></li>
+            <li><a href="msjd.html" target="_blank">民宿酒店</a></li>
+            <li><a href="xzjd.html" target="_blank">小众景点</a></li>
+            <li class="zh"><a href="zmrw.html" target="_blank">著名人物</a></li>
+        </ul>
+    </div>
+</div>
+<div class="top w"><img src="img/top.jpg" id="img"/></div>  <!--top图片-->
+
+<div class="mlj w">
+    <div class="zk">
+        <div class="frq">
+            <div class="bt">中卫沙坡头大湾村黄河宿集</div>
+            <div class="nr">
+                <p>
+                    黄河宿集是指位于中卫的一片民宿区域，面朝黄河，背靠长城，黄河宿集刚好处于二者小小的夹角之中，四顾别有一番风景。黄河·宿集由五家设计师民宿品牌组成：墟里、大乐之野、飞蔦集、南岸和西坡，是中卫最早出圈的民宿群。他们把民宿建在沙坡头景区对岸，彼此相连，这样的经营方式乍听有些奇怪，但5家民宿风格和服务各不相同，就像是设计师对“黄河”这个主题的不同版本诠释，有的低调，有的唯美，有的张扬。</p>
+                <br/>
+                <p>
+                    5家民宿各自布局，但也拥有一些共享基础服务，如共享餐厅承担了整个园区早餐的供应；只要住在“黄河宿集”里，可以在所有民宿的公共区域出入和拍照；体验项目也为园区共享，可以通过酒店的管家提前预订（无论预订哪个品牌，都会有管家提前联系），包括沙漠下午茶/258人、沙漠烛光晚餐/680人、以及多种沙漠户外项目；园区的许多地方都栽种了梨花，每年4月左右大片盛开，也成为入住宿集的宝藏体验。</p>
+            </div>
+            <div class="qy">民宿照片</div>
+        </div>
+        <div class="tu"><img src="img/hhsj0.jpeg"></div>
+    </div>
+    <div class="neirong">
+        <p>不同于大家过往对民宿的印象，这些热门民宿周边并不是鸟语花香小溪潺潺的景象，相反，它们主打融合当地景观融合现代的建筑设计思路，以另一种朴直自然的方式展露在西北的骄阳之下，成为独具特色的度假胜地。</p></br>
+        <div class="tt"><img src="img/hhsj2.jpg"></div>
+        <div class="zongbiankuang">
+            <div class="fu">
+                <div class="tc">交通及预订</div>
+                <div class="taocan">
+                    <p>路线一：中卫沙坡头机场出发，驾车40分钟；可选择联系民宿提前订车，较为便捷但全国直飞航班有限</p>
+                    <p>路线二：银川机场出发驾车3个小时，高铁1.5小时；从银川出发整体行程更可控但需要中转</p>
+                    <p>预订方式：官方微信公众号“黄河宿集”可预订（房价随淡旺季波动，下文给出的人均消费价格仅供参考）</p>
+                    <P>人均消费：889-2100元</P>
+                </div>
+            </div>
+            <div class="tao"><img src="img/dyw.jpg"/></div>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+<div class="copy w">
+  <pre>
+          Copyright 2022 ZhongWeiYinXiang,All Rights Reserved 版本所有：中卫印象
+          景点地址：宁 夏 中 卫 市 全 境
+          宁ICP备00000000号   咨询电话：0955-0000000   中卫印象旅游网
+                                                 </pre>
+</div>  <!--copy-->
+</body>
+<script>
+    var arr = new Array('img/top.jpg', 'img/top21.jpg', 'img/top22.jpg');
+    var i = 0;//下标
+    var t = null;
+
+    function change() {
+        //清除计时器
+        window.clearTimeout(t);
+        //获取图片对象
+        var img = document.getElementById('img');
+
+        //改变图片路径
+        img.src = arr[i];
+        //下标的增加
+        i++;
+        //下标范围的控制
+        if (i > arr.length - 1) {
+            i = 0;
+        }
+        //设置计数器
+        t = window.setTimeout('change()', 2000);
+    }
+
+    change();
+</script>
+
+</html>

@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	text-decoration:none;
+	font-size:12px;}
+.w{
+	width:996px;
+	margin:0px auto;}
+body,html{
+	width:100%;
+	height:100%;
+	background-image:url(../img/dbj1.jpg);}
+.logo{
+	width:196px;}
+.lg{width:166px;
+	float:left;
+	margin-left:30px;}
+.menu{
+	background:#09F;
+	width:800px;
+	height:40px;
+	float:right;
+	margin-top:20px;}
+.menu ul li{
+	float:left;
+	text-align:center;
+	line-height:40px;
+	background:url(../img/fjx.jpg) right no-repeat;
+	width:133.3px;}
+.menu ul li a{
+	color:#FFF;
+	font-size:24px;
+	font-weight:bold;
+	font-family:隶书;}
+.menu ul li:hover{background:#066;}
+.menu ul li.zh{background:none;}
+.top{
+	width:996px;
+	height:200px;
+	margin-top:2px;}
+.top img{ width:996px; height:200px;}
+
+.zb{
+	margin-bottom:10px;
+	margin-top:5px;
+	background:#fff;
+	width:490px;
+	height:315px;
+	float:left;
+	border:#CCC 1px groove;}
+
+.js{margin-top:5px;
+	float:left;
+	width:240px;
+	height:280px;}
+.js span{
+	padding-left:5px;
+	float:left;
+	text-indent:2em;
+	font-size:12px;
+	line-height:26px;}
+.js span a{
+	font-weight:bold;}
+.js span a:hover{
+	color:#F00;}
+.tp{margin-top:5px;
+	width:250px;
+	height:280px;
+	float:left;}
+.tp img{
+	height:280px;
+	width:250px;}
+.bt{
+	background:#03F;
+	width:470px;
+	height:30px;
+	font-family:楷体;
+	font-size:18px;
+	font-weight:bold;
+	color:#FFF;
+	padding-left:20px;
+	line-height:30px;}
+	
+.bottom{
+	margin-bottom:10px;
+	margin-top:0px;
+	background:#fff;
+	width:325px;
+	height:320px;
+	float:left;
+	border:#CCC 1px groove;}
+.bt1{
+	background:#03F;
+	width:305px;
+	height:30px;
+	font-family:楷体;
+	font-size:18px;
+	font-weight:bold;
+	color:#FFF;
+	padding-left:20px;
+	line-height:30px;}
+
+.wz{
+	float:left;
+	width:325px;
+	height:110px;}
+.wz span{
+	padding-left:5px;
+	float:left;
+	text-indent:2em;
+	font-size:12px;
+	line-height:26px;}
+.wz span b{
+	color:#F00;}
+.wz span b a:hover{color:#F00;}
+.wz span a{
+	font-weight:bold;}
+.wz span a:hover{
+	color:#F00;}
+.tupian{
+	    width:325px;
+	    height:180px;
+	    float:left;}
+.tupian img{
+	width:325px;
+	height:180px;}
+
+
+
+.copy{
+	background:#06F;
+	width:996px;
+	height:100px;
+	clear:both;
+    padding-top:15px;
+    line-height:25px;
+    text-align: center;
+    color:#FFF;}

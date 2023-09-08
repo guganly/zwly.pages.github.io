@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="css/ggc.css" rel="stylesheet" type="text/css"/>
+    <title>中卫煎猪脏</title>
+</head>
+
+<body onLoad="">
+<div class="w" style="height:80px; margin-top:5px;">
+    <!--logo-->
+    <div style="float:left;">
+        <div class="logo"><img src="img/5.jpg"/></div>
+        <div class="lg"><img src="img/3.jpg"/></div>
+    </div>
+    <!--menu菜单-->
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="zwms.html" target="_blank">中卫美食</a></li>
+            <li><a href="fjms.html" target="_blank">风景名胜</a></li>
+            <li><a href="msjd.html" target="_blank">民宿酒店</a></li>
+            <li><a href="xzjd.html" target="_blank">小众景点</a></li>
+            <li class="zh"><a href="zmrw.html" target="_blank">著名人物</a></li>
+        </ul>
+    </div>
+</div>
+<div class="top w"><img src="img/top.jpg" id="img"/></div>  <!--top图片-->
+
+<div class="mlj w">
+    <div class="zk">
+        <div class="frq">
+            <div class="bt">中卫煎猪脏</div>
+            <div class="nr">
+                <p>
+                    清乾隆年间，祖居中卫城的高春华外祖父倪广玉家族几辈人借助屠宰卖肉谋生的便利条件，尝试用新鲜猪血与糯米掺拌后、蒸煮自制猪脏，在市面上叫卖，很受当地食客欢迎。清末民国年间，煎猪脏在中卫街市兴起，多至十几家。猪脏后取意猪之精华尽藏纳于此吃食之中。
+                    煎猪脏可说是中卫风味小吃的一次创新。制作猪脏的主要成分糯米取材于卫宁平原自产的精选糯米，猪血取材于定点屠宰厂经检验检疫合格的生猪、新鲜、无污染、未凝固的血液；经过传统工艺、纯手工制成的猪脏，再次显现民间的饮食技艺和他的神奇。</p>
+            </div>
+
+            <table>
+                <tr>
+                    <td width="100px" style="font-size:14px; font-weight:bold; color:#999;">中文名</td>
+                    <td width="250px">煎猪脏</td>
+                    <td style="font-size:14px; font-weight:bold; color:#999;">是否含防腐剂</td>
+                    <td>否</td>
+                </tr>
+                <tr>
+                    <td style="font-size:14px; font-weight:bold; color:#999;">主食材料</td>
+                    <td>新鲜猪血，糯米</td>
+                    <td style="font-size:14px; font-weight:bold; color:#999;">特 色</td>
+                    <td>具有补虚、健脾、暖胃等滋补保健功效</td>
+                </tr>
+            </table>
+
+            <div class="qy">简 介</div>
+        </div>
+        <div class="tu"><img src="img/jzz.jpg"/></div>
+    </div>
+    <div class="neirong">
+        <p>
+            煎猪脏，在中卫街市从古到今经久不衰，最为有名的高氏、何氏煎猪脏，他们用料讲究，做工精细。制作法：糯米淘洗干净、泡醒，锅水开后下米煮10分钟，捞出后拌入新鲜猪血、全调料粉、食盐。装筐上笼蒸3小时，制成猪脏。猪脏下笼后压实晾凉，用刀切成1厘米厚、15厘米宽、18厘米长的长方薄块冷藏存放备用。食用时用刀切块，放入平底铁锅煎炒，适时加入高汤充分滋润入味。同时，在猪脏块上加入事先卤制好的猪头肉，与猪脏一同煎炒，后加入葱、姜、蒜等佐料翻炒，再次提味起锅装盘。煎猪脏最经典的吃法是与自酿黄酒同食，吃一口猪脏喝一口黄酒，美在其中，香在回味。 </p>
+    </div>
+    <div class="xs">特 点</div>
+    <div class="neirong1"><p>猪脏入口肥而不腻，细细咀嚼，余味不尽。</p></div>
+
+</div>
+
+<div class="copy w">
+  <pre>
+          Copyright 2022 ZhongWeiYinXiang,All Rights Reserved 版本所有：中卫印象
+          景点地址：宁 夏 中 卫 市 全 境
+          宁ICP备00000000号   咨询电话：0955-0000000   中卫印象旅游网
+                                                 </pre>
+</div>  <!--copy-->
+</body>
+<script>
+    var arr = new Array('img/top.jpg', 'img/top21.jpg', 'img/top22.jpg');
+    var i = 0;//下标
+    var t = null;
+
+    function change() {
+        //清除计时器
+        window.clearTimeout(t);
+        //获取图片对象
+        var img = document.getElementById('img');
+
+        //改变图片路径
+        img.src = arr[i];
+        //下标的增加
+        i++;
+        //下标范围的控制
+        if (i > arr.length - 1) {
+            i = 0;
+        }
+        //设置计数器
+        t = window.setTimeout('change()', 2000);
+    }
+
+    change();
+</script>
+</html>

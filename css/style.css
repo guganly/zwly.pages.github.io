@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	text-decoration:none;
+	font-size:12px;}
+.w{
+	width:996px;
+	margin:0px auto;}
+body,html{
+	width:100%;
+	height:100%;
+	background-image:url(../img/dbj1.jpg);}
+.logo{
+	width:192px;}
+.lg{width:162px;
+	float:left;
+	margin-left:30px;}
+
+.menu ul li.zh{background:none;}
+.menu{
+	background:#09F;
+	width:804px;
+	height:40px;
+	float:right;
+	margin-top:20px;}
+.menu ul li{
+	float:left;
+	text-align:center;
+	line-height:40px;
+	background:url(../img/fjx.jpg) right no-repeat;
+	width:134px;}
+.menu ul li:hover{background:royalblue;}
+.menu ul li a{
+	color:#FFF;
+	font-size:24px;
+	font-weight:bold;
+	font-family:隶书;}
+
+	
+/*.menu ul li a:hover{ color:#6F0;}*/
+
+.top{
+	width:996px;
+	height:200px;
+	margin-top:2px;}
+.top img{ width:996px; height:200px;}
+	
+.hz{width:976px;
+	height:30px; 
+	line-height:30px;
+    margin-top:5px;
+	background:#06F;
+	font-size:18px;
+	color:#fff;
+	font-family: 楷体; 
+	padding-left:20px;
+	font-weight: bold;}
+.hz a:hover{
+	color:#F00;}
+
+.lb{	
+    margin-bottom:5px;
+	margin-top:5px;
+	width:391px;
+	height:250px;
+	float:left;}
+.lb img{
+	width:391px;
+	height:260px;}
+.wz{
+	margin-bottom:5px;
+	margin-top:5px;
+	margin-left:5px;
+	width:600px;
+	height:260px;
+	float:left;
+	line-height:18px;}
+.wz span{
+	display:block;
+	font-size:12px;
+	padding: 7px 15px 0px ;
+	text-indent:2em;
+	line-height:22px;}
+.left{		
+	margin-bottom:5px;
+	width:236px;
+	height:580px;
+	float:left;}
+.left1{
+	background:#06F;
+	width:236px;
+	height:30px;
+	line-height:30px;
+	float:left;}
+.left1 font{
+	font-size:18px;
+	font-weight:bold;
+	font-family:楷体;
+	color:#FFF;
+	margin-left:20px;}
+.bk{
+	border:#F3F3F3 1px groove;
+	width:236px;
+	height:280px;}
+.bk1{
+	margin-top:5px;
+	border:#F3F3F3 1px groove;
+	width:236px;
+	height:280px;}
+.left2{
+	width:236px;
+	height:250px;
+	float:left;;
+	font-weight:bold;}
+.left2 ul li{
+	text-align:center;}
+.left2 ul li a{
+	color:#000;
+	font-size:12px;
+    line-height:45px;}
+.left2 ul li a:hover{color:#0F0;}
+	
+
+
+.con{
+	margin-bottom:5px;
+	width:502px;
+	height:580px;
+	float:left;
+	margin-left:10px;}
+.con1{
+	background:#06F;
+	width:506px;
+	height:30px;
+	line-height:30px;
+	float:left;}
+.con1 font{
+	font-size:18px;
+	font-weight:bold;
+	font-family:楷体;
+	color:#FFF;
+	margin-left:20px;}
+.con1 a, .r1 a, .con3 a{
+	color:#FFF;
+	float:right;
+	font-weight:bold;}
+.con1 a:hover, .r1 a:hover, .con3 a:hover{
+	color:#F00;}
+.con2 p{
+	font-size:12px;
+	line-height:23px;
+	 text-indent:2em;
+	 margin-bottom:5px;}
+
+
+#bgd{ clear:both;width:500px; height:122px;overflow:hidden;}
+.vbgd{ width:410%; height:122px;}
+#bgd #tp1, #bgd #tp2 {
+	float:left; 
+	width:1010px;
+	height:122px;	
+	float:left;}
+#bgd #tp1  img, #bgd #tp2 img{
+	float:left;
+	margin-right:2px;
+	width:124px;
+	height:122px;}
+.con3{
+	margin-top:5px;
+	background:#06F;
+	width:500px;
+	height:30px;
+	line-height:30px;
+	float:left;}
+.con3 font{
+	font-size:18px;
+	font-weight:bold;
+	font-family:楷体;
+	color:#FFF;
+	margin-left:20px;}
+	
+.con4{ clear:both; width:500px; height:230px; overflow:hidden;}
+.vgd{ width:300%; height:230px;}
+.con4 #gd1, .con4 #gd2{ float:left; width:750px;}
+.con4 #gd1 div, .con4 #gd2 div{
+	margin-top:5px;
+	float:left;
+	 width:246px;
+	  margin-right:4px;}
+.con4 #gd1 div p, .con4 #gd2 div p{ line-height:30px; height:30px; text-align:center;}
+
+.right{
+	width:226px;
+	height:580px;
+	float:left;
+	margin-left:10px;
+	margin-bottom:5px;}
+.r1{
+	background:#06F;
+	width:245px;
+	height:30px;
+	line-height:30px;
+	float:left;}
+.r1 font{
+	font-size:18px;
+	font-weight:bold;
+	font-family:楷体;
+	color:#FFF;
+	margin-left:20px;}
+.r2{
+	width:240px;
+	line-height:20px;}
+.r2 p{ text-indent:2em; padding-left:5px;}
+.r3 img{
+	width:240px;
+	height:170px;}
+.r4{
+	width:240px;
+	line-height:25px;}
+.r5 img{
+	width:240px;
+	height:172px;}
+.rbk{
+	border:#CCC 1px groove;
+	width:242px;
+	height:280px;}
+.rbk1{
+	margin-top:10px;
+	border:#CCC 1px groove;
+	width:242px;
+	height:273px;}
+
+
+
+.copy{
+	background:#06F;
+	width:996px;
+	height:100px;
+	clear:both;
+    padding-top:15px;
+    line-height:25px;
+    text-align: center;
+    color:#FFF;}
+/*.copy pre{
+	
+	padding-top:15px;
+	line-height:25px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

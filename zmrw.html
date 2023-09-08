@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="css/tts.css" rel="stylesheet" type="text/css"/>
+    <title>著名人物</title>
+</head>
+
+<body onLoad="">
+<div class="w" style="height:80px; margin-top:5px;">
+    <!--logo-->
+    <div style="float:left;">
+        <div class="logo"><img src="img/5.jpg"/></div>
+        <div class="lg"><img src="img/3.jpg"/></div>
+    </div>
+    <!--menu菜单-->
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="zwms.html" target="_blank">中卫美食</a></li>
+            <li><a href="fjms.html" target="_blank">风景名胜</a></li>
+            <li><a href="msjd.html" target="_blank">民宿酒店</a></li>
+            <li><a href="xzjd.html" target="_blank">小众景点</a></li>
+            <li class="zh"><a href="zmrw.html" target="_blank">著名人物</a></li>
+        </ul>
+    </div>
+</div>
+<div class="top w"><img src="img/top.jpg" id="img"/></div> <!--top图片-->
+
+<div class="w">
+    <div class="zb">
+        <div class="bt">刘佩黻</div>
+        <div class="js">
+            <span>刘佩黻(1878—1944)，字瑞甫，清末民初县文化界名流，善诗文，精医脉，乐善好施，热心公益事业，是卫地德高望众的缙绅。</span></br>
+            <span>他先后担任县应理书院院长、县劝学所所长，直接从事教育行政管理。民国年(1922)，他倡议将中卫县第一区高级小学与县模范初级小学合并，成立中卫县高级小学校，修业年限初小为四年，高小为三年，春季始业，使该校成为本县第一所学制完善、管理规范的学校。
+            <a href="lpf.html">《详细》</a></span>
+        </div>
+        <div class="tp"><img src="img/lpf.png"/></div>
+    </div>
+
+    <div class="zb" style="margin-left:10px;">
+        <div class="bt">赵牧阳</div>
+        <div class="js">
+            <span>赵牧阳，1967年出生于宁夏中卫，中国内地摇滚歌手，鼓手。曾先后加入过鲍家街43号、超载乐队、腾格尔与苍狼乐队、呼吸乐队等摇滚乐队，窦唯的《黑梦》、许巍的《在别处》及张楚的《姐姐》等诸多经典作品中都记录下了他震撼人心的鼓技。</span>
+            <span>作为歌手，牧阳在1991年发行的首张专辑《牧阳流浪》被传唱至大江南北，让他在被称作"摇滚鼓王"的同时亦被称为"中国流行民谣第一人"。<a href="zmy.html">《详细》</a></span>
+        </div>
+        <div class="tp"><img src="img/zmy.jpeg"/></div>
+    </div>
+
+    <div class="bottom">
+        <div class="bt1">麦天和</div>
+        <div class="wz">
+              <span>麦天和，《经济与法》主编，1963年5月生人，祖籍宁夏中卫景庄。
+              麦天和种过两年庄稼，读过四年中文，教过六年语文，办过两年报纸，做电视时间最长，先后十多年了。出过三本长篇文学作品，拍过八部电视系列片。</span>
+        </div>
+        <div class="tupian">
+            <img src="img/mth.jpg"/>
+        </div>
+    </div>
+
+    <div class="bottom" style="margin-left:6px;">
+        <div class="bt1">张保和</div>
+        <div class="wz">
+            <span>张保和，祖籍山西太原，生于陕西西安，长在宁夏中卫市。中国曲艺家协会理事、中国武警文工团艺术指导、军旅艺术家。2008年创作了抗震民谣《中国雄起》。留住真情，保住特色，守住信念，护住青山。——张保和</span>
+        </div>
+        <div class="tupian">
+            <img src="img/zbh.jpeg"/>
+        </div>
+    </div>
+
+    <div class="bottom" style="margin-left:6px;">
+        <div class="bt1">张子华</div>
+        <div class="wz">
+            <span>张子华（1914～1942），革命烈士。原名王绪祥，乳名宿祥，曾化名王少髯、黄汉等。宁夏中宁县恩和乡沙滩村人。张子华自幼有良好的家庭教育，又按部就班接受了正规的现代学校教育。</span>
+        </div>
+        <div class="tupian">
+            <img src="img/zzh.png"/>
+        </div>
+    </div>
+
+</div>
+
+<div class="copy w">
+  <pre>
+          Copyright 2022 ZhongWeiYinXiang,All Rights Reserved 版本所有：中卫印象
+          景点地址：宁 夏 中 卫 市 全 境
+          宁ICP备00000000号   咨询电话：0955-0000000   中卫印象旅游网
+                                                 </pre>
+</div> <!--copy-->
+
+</body>
+<script>
+    var arr = new Array('img/top.jpg', 'img/top21.jpg', 'img/top22.jpg');
+    var i = 0;//下标
+    var t = null;
+
+    function change() {
+        //清除计时器
+        window.clearTimeout(t);
+        //获取图片对象
+        var img = document.getElementById('img');
+
+        //改变图片路径
+        img.src = arr[i];
+        //下标的增加
+        i++;
+        //下标范围的控制
+        if (i > arr.length - 1) {
+            i = 0;
+        }
+        //设置计数器
+        t = window.setTimeout('change()', 3000);
+    }
+
+    change();
+</script>
+
+</html>
